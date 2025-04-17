@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Super Penalty</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
+  <div class="container">
+    <h1> Super Penalty </h1>
+    <p class="scoreboard">Gola: <span id="score">0</span></p>
+    
+    <div id="field">
+      <div id="goal">
+        <div class="net"></div>
+        <div id="goalkeeper"></div>
+      </div>
+      <div id="ball" title="Përdor ← → për të lëvizur, Space/Click për të gjuajtur"></div>
+    </div>
+
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
